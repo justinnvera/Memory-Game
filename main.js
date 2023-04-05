@@ -1,5 +1,5 @@
 const tilesContainer = document.querySelector(".tiles");
-const colors = ["black", "white", "red", "green", "blue", "yellow", "magenta", "cyan", "orange", "brown", "pink", "purple", "gray", "silver", "gold", "beige", "ivory", "lavender", "aqua", "teal"];
+const colors = ["lavender", "white", "red", "green", "blue", "yellow", "magenta", "cyan", "orange", "brown", "pink", "purple", "gray", "silver", "gold", "beige",];
 const colorsPicklist = [...colors, ...colors];
 const tileCount = colorsPicklist.length;
 
@@ -45,7 +45,7 @@ function buildTile(color) {
             revealed += 2;
 
             if (revealed === tileCount) {
-                alert("You win! Referesh to play again :)");
+                alert("YOU SUCK");
             }
 
             return
