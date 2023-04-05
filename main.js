@@ -13,7 +13,7 @@ function buildTile(color) {
 
     element.classList.add("tile"); 
     element.setAttribute("data-color", color); 
-    element.setAttribute("data-revelead", "false");
+    element.setAttribute("data-revealed", "false");
 
     element.addEventListener("click", () => {
         const revealed = element.getAttribute("data-revealed");
