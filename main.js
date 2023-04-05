@@ -36,8 +36,8 @@ function buildTile(color) {
         const colorToMatch = activeTile.getAttribute("data-color");
 
         if (colorToMatch === color) {
-            activeTile.setAttribute("data-revelead", "true");
-            element.setAttribute("data-revelead", "true");
+            activeTile.setAttribute("data-revealed", "true");
+            element.setAttribute("data-revealed", "true");
 
             awaitingEndOfMove = false;
             activeTile = null;
