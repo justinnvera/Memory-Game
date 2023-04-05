@@ -6,7 +6,7 @@ body {
     margin: 48px auto;
     width: max-content;
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(8, 100px);
     gap: 16px
 }
 .tile {
