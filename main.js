@@ -1,5 +1,5 @@
 const tilesContainer = document.querySelector(".tiles");
-const colors = ["lavender", "white", "red", "green", "blue", "yellow", "magenta", "cyan", "orange", "brown", "pink", "purple", "gray", "silver", "gold", "beige",];
+const colors = ['#FF0000', '#00FF00', '#0000FF', '#FF00FF', '#00FFFF', '#800000', '#008000', '#000080', '#808000', '#800080', '#008080', '#C0C0C0', '#808080', '#FFA500', '#FFC0CB', '#FFD700', '#FF00FF', '#B22222', '#FF1493', '#00BFFF', '#1E90FF', '#FF4500', '#FF8C00', '#FF69B4', '#FF6347', '#00CED1', '#0000CD', '#9400D3', '#8B008B', '#32CD32', '#FFFAFA', '#F0E68C', '#00FF7F', '#B0E0E6', '#BA55D3', '#87CEFA', '#228B22', '#FFFFF0', '#FFDAB9', '#FFDEAD', '#DDA0DD', '#FFB6C1', '#BC8F8F', '#2F4F4F', '#4B0082'];
 const colorsPicklist = [...colors, ...colors];
 const tileCount = colorsPicklist.length;
 
