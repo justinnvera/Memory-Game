@@ -1,5 +1,5 @@
 const tilesContainer = document.querySelector(".tiles");
-const colors = ["orange", "white", "red", "green", "blue", "yellow", "magenta", "cyan"]
+const colors = ["black", "white", "red", "green", "blue", "yellow", "magenta", "cyan", "maroon", "olive", "navy", "purple", "teal", "silver", "gray", "pink", "orange", "brown", "coral", "gold", "beige", "lavender", "turquoise", "skyblue", "violet", "lime", "peachpuff", "tan", "salmon", "khaki", "plum"];
 const colorsPicklist = [...colors, ...colors];
 const tileCount = colorsPicklist.length;
 
